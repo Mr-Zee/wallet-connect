@@ -4,7 +4,6 @@ import "./App.css";
 
 const App = () => {
   const foo = async (e) => {
-    console.log("foo click");
     e.preventDefault();
   };
 
@@ -41,7 +40,7 @@ const App = () => {
 
   return (
     <>
-      <button onClick={connectWallet}>foo</button>
+      <button onClick={connectWallet}>click here</button>
     </>
   );
 };
